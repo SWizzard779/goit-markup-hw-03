@@ -41,7 +41,6 @@ main {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    /*margin: 0 156px;*/
     padding: 0 15px;
 }
 
@@ -67,6 +66,7 @@ main {
     display: flex;
     gap: 40px;
 }
+
 .logo-header {
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
@@ -226,7 +226,7 @@ main {
     gap: 24px;
 }
 
-.team-list { /*after re-work as per instructions smth wrong wth the paddings for the first li*/
+.team-list { 
     background: #FFF;
     display: inline-flex;
     flex-direction: column;
